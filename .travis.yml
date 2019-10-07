@@ -6,7 +6,7 @@ cache:
   directories:
     - ~/.npm
 
-notification:
+notifications:
   email: false
 
 node_js:
