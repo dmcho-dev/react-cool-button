@@ -1,7 +1,7 @@
 {
-  "name": "react-cool-button",
+  "name": "react-cool-button-test-2",
   "version": "0.0.0-development",
-  "description": "react-cool-button React component",
+  "description": "react-cool-button npmtest",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -21,7 +21,9 @@
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
   },
-  "dependencies": {},
+  "dependencies": {
+    "core-js": "^2.6.9"
+  },
   "peerDependencies": {
     "react": "16.x"
   },
@@ -29,8 +31,8 @@
     "nwb": "0.23.x",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "travis-deploy-once": "^5.0.11",
-    "semantic-release": "^15.13.24"
+    "semantic-release": "^15.13.24",
+    "travis-deploy-once": "^5.0.11"
   },
   "author": "",
   "homepage": "",

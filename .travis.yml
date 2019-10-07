@@ -4,16 +4,19 @@ language: node_js
 
 cache:
   directories:
-    - ~/.npm
+    - $HOME/.npm
 
 notifications:
   email: false
 
 node_js:
   - 8
+  - 10
 
 before_install:
   - npm install codecov.io coveralls
+  - git config --global user.name "dmcho-dev"
+  - git config --global user.email "dmcho.dev@gmail.com"
 
 after_success:
   - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
